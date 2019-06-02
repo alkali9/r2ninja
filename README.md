@@ -8,7 +8,7 @@ This plugin allows binaryninja to interact with radare2. There are shortcuts to 
 
 After a binary has been analyzed, run *Initialize r2ninja*. All UI commands will output to the log.
 
-[[https://raw.githubusercontent.com/alkali9/r2ninja/master/usage.png|alt=usage]]
+[r2ninja usage](https://raw.githubusercontent.com/alkali9/r2ninja/master/usage.png)
 
 Currently supported commands include:
 
