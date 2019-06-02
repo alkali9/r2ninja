@@ -1,3 +1,10 @@
+# plugin to do r2 stuff 
+import os
+
+# this is the default r2 inst dir on macOS
+# not included in the binja script PATHs
+os.environ["PATH"] += ":/usr/local/bin"
+
 from binaryninja import *
 import r2pipe
 
